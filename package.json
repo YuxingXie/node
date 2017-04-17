@@ -1,0 +1,26 @@
+{
+  "name": "lingyun",
+  "version": "0.0.1",
+  "description": "lingyun offical site",
+  "main": "lingyun.js",
+  "scripts": {
+    "test": "npm lingyun.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuxingXie/node.git"
+  },
+  "keywords": [
+    "lingyun"
+  ],
+  "author": "YuxingXie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuxingXie/node/issues"
+  },
+  "homepage": "https://github.com/YuxingXie/node#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express3-handlebars": "^0.5.2"
+  }
+}

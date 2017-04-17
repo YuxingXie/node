@@ -1,0 +1,3 @@
+npm init
+npm install --save express
+npm install --save express3-handlebars //一种视图引擎(如果不用jade，它作为替代品)
