@@ -1,0 +1,59 @@
+.bg-none{background: none}
+.bg-white{background-color: #ffffff;color: #373a3c}
+.bg-red { background-color: #e02222;}
+.bg-blue { background-color: #0da3e2;color: #fff}
+
+.bg-grey { background-color: #9c9c9c;}
+.bg-grey-1 {  background-color: #818a91;}
+.bg-grey-2 {color: #FFFFFF; background-color: #c6c6c6;}
+.bg-medium-grey-2 { background-color: #d4d2d2;}
+.bg-light-grey {color: #000; background-color: #e6e4e4;}
+.bg-medium-grey { background-color: #eeecec;}
+.bg-dark-grey{  background-color: #e8e8e8;  }
+.bg-very-light {color: #000;background-color: #f6f6f6;}
+.bg-very-light-1 {color: #000;background-color: #f9f9f9;}
+.bg-green { background-color: #35aa47;}
+.bg-yellow { background-color: #ffb848;}
+.bg-light-yellow { background-color: #f2ff09;}
+.bg-purple { background-color: #852b99;}
+.bg-light-red { background-color: #ff5400;}
+.bg-sliver-1{background-color:#c0c0c0;}
+.bg-blue-1 { color: #000;background-color: rgba(194, 216, 253, 0.58);}
+.bg-blue-2 { background-color: #c2d8fd;}
+.bg-blue-3 { background-color: #bfd5fa;}
+.bg-very-light-blue { background-color: #bfd5fa;}
+.bg-blue-4 {color: #fff;background-color: #5bc5ff;}
+.bg-light-blue {color: #fff;background-color: #0786EA;}
+
+.bg-light-green { background-color: #78df1d;}
+.bg-light-primary { background-color: #a4c5ca;}
+.bg-black{background-color: #000000}
+.bg-black-2{background-color: #292a2c;}
+
+/*********************
+ GENERAL UI COLORS
+*********************/
+
+/***
+Colors
+***/
+.color-red { color: #e02222;}
+.color-danger {color: #d9534f;}
+
+.color-blue { color: #0da3e2;}
+.color-white { color: #ffffff;}
+.color-grey-10 { color: #fafafa;}
+.color-grey-1{color:#efefef;}
+.color-grey-2 { color: #828282;}
+.color-light-grey-2 {color: rgba(213, 208, 201, 0.67);}
+.color-grey { color: #555555;}
+.color-grey-3 {color: #666666}
+
+.color-green { color: #35aa47;}
+.color-yellow { color: #ffb848;}
+.color-purple { color: #852b99;}
+.color-light-red { color: #ff5400;}
+.color-light-blue { color: #bfd5fa;}
+
+.color-light-green { color: #78df1d;}
+.color-black { color: #000;}

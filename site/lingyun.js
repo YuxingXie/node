@@ -5,7 +5,16 @@ var handlebars=require("express3-handlebars").create({defaultLayout:'main'});
 app.engine('handlebars',handlebars.engine);
 app.set("view engine","handlebars");
 
-app.set('port',process.env.PORT || 3000);
+app.set('port',process.env.PORT || 80);
+//静态资源
+console.log(__dirname);
+app.use(express.static(__dirname+'/public'));
+
+//放在所有除静态资源之外的路由之前检测查询字符串进行测试
+app.use(function(req,res,next){
+    res.locals.showTests=app.get('env')!=='production'&&req.query.test==='1';
+    next();
+});
 app.get('/',function(req,res){
     res.render('home');
 });

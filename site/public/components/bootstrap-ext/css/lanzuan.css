@@ -1,0 +1,19 @@
+a:link {color: #666666}
+a:visited{color: #666666}
+a, a:focus, a:hover, a:active {
+    /*outline: 0;*/
+    text-decoration: none;
+    color: #314c97;
+}
+.btn-padding-little {
+    padding:0.15rem .225rem 0.15rem .225rem;
+    font-size:1rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+@media (max-width: 47.9em) {
+    .btn-padding-little {
+        font-size:.55rem;
+        line-height: 1;
+    }
+}

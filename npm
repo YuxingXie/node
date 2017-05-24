@@ -1,3 +1,5 @@
 npm init
 npm install --save express
 npm install --save express3-handlebars //一种视图引擎(如果不用jade，它作为替代品)
+npm install --save-dev mocha //一个测试框架
+npm install bootstrap@4.0.0-alpha.6//bootstrap+jQuery+tether

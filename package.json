@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/YuxingXie/node#readme",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.15.3",
     "express3-handlebars": "^0.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1"
   }
 }
